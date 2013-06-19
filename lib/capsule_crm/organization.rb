@@ -251,7 +251,7 @@ module CapsuleCRM
     #
     # Returns a CapsuleCRM::ResultsProxy
     def self.init_collection(collection)
-      CapsuleCRM::ResultsProxy.new(collection.map { |item| new item })
+      CapsuleCRM::ResultsProxy.new([collection].flatten)
     end
   end
 end

@@ -15,3 +15,8 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+
+.DS_Store
+
+# Ignore all RubyMine project files
+.idea
